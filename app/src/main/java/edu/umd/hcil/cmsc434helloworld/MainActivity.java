@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Demonstrating how to hook up a button in Java via an anonymous class that implements
+        // OnClickListener
         Button buttonToggleMorning = (Button)findViewById(R.id.buttonToggleMorning);
         buttonToggleMorning.setOnClickListener(new View.OnClickListener() {
             @Override
